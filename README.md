@@ -1,6 +1,6 @@
 # Interoperability between C, C++, Objective-C, Objective-C++ and Swift
 
-I wrote up code snippets from a StackOverFlow discussion:
+I wrote up code snippets from a Stack Overflow discussion:
 [Can I have Swift, Objective-C, C and C++ files in the same Xcode project?
 ](https://stackoverflow.com/questions/32541268/can-i-have-swift-objective-c-c-and-c-files-in-the-same-xcode-project/32546879)
 
@@ -20,7 +20,7 @@ Hello World in Swift
 
 ### File Types
 
-File ending matters: `.h`, `.c`., `.hpp`, `.cpp`, `.m`, `.mm` and `.swift`.
+File ending matters: `.h`, `.c`, `.hpp`, `.cpp`, `.m`, `.mm` and `.swift`.
 
 I noticed that the line with `#include <iostream>` produced an error while the files was a `.m` which was fixed by moving to `.mm` since it is a C++ library, but can be understood in the context of Objective-C++.
 
